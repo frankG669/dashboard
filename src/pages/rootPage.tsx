@@ -322,7 +322,32 @@ const RootPage: React.FC = () => {
                             </div>
                         </div>
                         <div className="earn-cryptos">
-
+                            <div className="earn">
+                                <div className="container-earn">
+                                    <div className="earn-free">
+                                        <div className="first-line">
+                                            <p>Earn</p>
+                                            <div className="free">
+                                                <div className="free-content">
+                                                    <p>free</p>
+                                                </div>
+                                            </div>
+                                            <p>crypto</p>
+                                        </div>
+                                        <div className="second-text">
+                                            <p>with Conview Earn!</p>
+                                        </div>
+                                    </div>
+                                    <div className="earn-msj">
+                                        <p>Learn about different cryptocurrencies and earn them for free!!</p>
+                                    </div>
+                                    <div className="button-earn">
+                                        <button id="earnNw">
+                                            Earn Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

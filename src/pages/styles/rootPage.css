@@ -381,6 +381,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .logo img{
     width: 30px;
@@ -405,4 +406,81 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.tbody{
+    margin-bottom: 20px;
+}
+.market-and-earn{
+    display: flex;
+    justify-content: spa;
+}
+.earn-cryptos{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.earn{
+    width: 450px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.earn p{
+    color: #FFFFFF;
+}
+.first-line{
+    display: flex;
+    gap: 10px;
+}
+.first-line p{
+    font-size:  30px;
+}
+.free{
+    width: 100px;
+    border: solid 1px rgba(146, 142, 142, 0.572);
+    border-radius: 10px;
+    height: 32px;
+    background-color: rgba(146, 142, 142, 0.572);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-20deg);
+}
+.free-content{
+    width: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+    transform: rotate(15deg);
+    border: solid 1px rgba(222, 220, 220, 0.757);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-text p{
+    font-size: 30px;
+}
+.container-earn{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+#earnNw{
+    width:120px;
+    height: 40px;
+    background-color: rgb(79, 174, 205);
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#earnNw:hover{
+    background-color: rgb(46, 95, 229);
 }
