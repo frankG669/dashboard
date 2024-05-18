@@ -18,6 +18,10 @@ import litecoin from '../assets/images/litecoin.svg'
 import ethereum from '../assets/images/ethereum.svg'
 import arrowDown from '../assets/images/arrow-down.svg'
 import bandProtocol from '../assets/images/band-protocol.svg'
+import star from '../assets/images/star.svg'
+import vechain from '../assets/images/vechain.svg'
+import aave from '../assets/images/aave.svg'
+import waves from '../assets/images/waves.svg'
 
 const RootPage: React.FC = () => {
     return(
@@ -204,11 +208,114 @@ const RootPage: React.FC = () => {
                                 <div className="table-cryptos">
                                     <div className="thead">
                                         <div className="tr">
-                                            <p>Name</p>
-                                            <p>Price</p>
-                                            <p>Change</p>
-                                            <p>Market Cap</p>
-                                            <p>Watch</p>
+                                            <p className="th-name">Name</p>
+                                            <p className="th-price">Price</p>
+                                            <p className="th-change">Change</p>
+                                            <p className="th-market-cap">Market Cap</p>
+                                            <p className="th">Watch</p>
+                                        </div>
+                                    </div>
+                                    <div className="tbody">
+                                        <div className="tr-tbody-crypto">
+                                            <div className="td-logo-info">
+                                                <div className="logo">
+                                                    <img src={bandProtocol} alt="Band protocol" />
+                                                </div>
+                                                <div className="info">
+                                                    <p><b>Band Protocol</b></p>
+                                                    <p>BAND</p>
+                                                </div>
+                                            </div>
+                                            <div className="td-price">
+                                                <p>$3.53</p>
+                                            </div>
+                                            <div className="td-change">
+                                                <p>+13.38%</p>
+                                            </div>
+                                            <div className="td-market-cap">
+                                                <p><b>399.95 M</b></p>
+                                            </div>
+                                            <div className="td-star">
+                                                <img src={star} alt="Estrella" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="tbody">
+                                        <div className="tr-tbody-crypto">
+                                            <div className="td-logo-info">
+                                                <div className="logo">
+                                                    <img src={vechain} alt="VeChain" />
+                                                </div>
+                                                <div className="info">
+                                                    <p><b>VeChain</b></p>
+                                                    <p>VET</p>
+                                                </div>
+                                            </div>
+                                            <div className="td-price">
+                                                <p>$7.53</p>
+                                            </div>
+                                            <div className="td-change">
+                                                <p>+11.119%</p>
+                                            </div>
+                                            <div className="td-market-cap">
+                                                <p><b>152 M</b></p>
+                                            </div>
+                                            <div className="td-star">
+                                                <img src={star} alt="Estrella" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="tbody">
+                                        <div className="tr-tbody-crypto">
+                                            <div className="td-logo-info">
+                                                <div className="logo">
+                                                    <img src={aave} alt="Aave" />
+                                                </div>
+                                                <div className="info">
+                                                    <p><b>Aave</b></p>
+                                                    <p>AAVE</p>
+                                                </div>
+                                            </div>
+                                            <div className="td-price">
+                                                <p>$4.53</p>
+                                            </div>
+                                            <div className="td-change">
+                                                <p>+9.38%</p>
+                                            </div>
+                                            <div className="td-market-cap">
+                                                <p><b>255.87 M</b></p>
+                                            </div>
+                                            <div className="td-star">
+                                                <img src={star} alt="Estrella" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="tbody">
+                                        <div className="tr-tbody-crypto">
+                                            <div className="td-logo-info">
+                                                <div className="logo">
+                                                    <img src={waves} alt="Waves" />
+                                                </div>
+                                                <div className="info">
+                                                    <p><b>Waves</b></p>
+                                                    <p>WAVES</p>
+                                                </div>
+                                            </div>
+                                            <div className="td-price">
+                                                <p>$5.87</p>
+                                            </div>
+                                            <div className="td-change">
+                                                <p>+4.38%</p>
+                                            </div>
+                                            <div className="td-market-cap">
+                                                <p><b>39.95 M</b></p>
+                                            </div>
+                                            <div className="td-star">
+                                                <img src={star} alt="Estrella" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
