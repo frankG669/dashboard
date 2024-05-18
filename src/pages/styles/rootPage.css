@@ -1,0 +1,365 @@
+body{
+    background-color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    width: 120px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.information{
+    background-color: #FFFFFF;
+    width: 93%;
+    height: 98vh;
+    border-radius: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+}
+.tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.icons img{
+    width: 30px;
+    cursor: pointer;
+}
+.logo img{
+    width: 45px;
+}
+
+
+
+/* information */
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.icons-user img{
+    width: 30px;
+}
+.icons-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    gap: 40px;
+}
+.user-name{
+    background-color: rgba(103, 100, 100, 0.175);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-name img{
+    width: 55px;
+    position: absolute;
+    left: -15px;
+}
+
+.user-name p{
+    position: absolute;
+    left: 40px;
+    font-weight: bold;
+}
+
+.element{
+    background-color: rgba(103, 100, 100, 0.175);
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tittle{
+    margin-left: 20px;
+}
+
+
+/* portfolio */
+.portfolio-assets{
+    width: 99%;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.portfolio{
+    width: 40%;
+    height: 100%;
+}
+.assets{
+    width: 55%;
+    height: 100%;
+}
+
+.portfolio-tittle,
+.assets-tittle{
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.portfolio-tittle p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.portfolio-info{
+    border-radius: 20px;
+    background-color: #e5f1ff;
+    height: 270px;
+}
+.balance-options{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.balance{
+    margin-left: 20px;
+}
+.btn-options{
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    margin-right: 10px;
+}
+.btn-options img{
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+#userBalance{
+    font-size: 25px;
+    font-weight: bold;
+}
+.tittle-balance p{
+    font-size: 15px;
+    color: #878383;
+}
+
+.assets-tittle{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.tittle-p p{
+    font-size:25px;
+    font-weight: bold;
+}
+
+
+/* Cryptos */
+
+.assets-info{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.bitcoin,
+.litecoin,
+.ethereum{
+    width: 25%;
+    height: 270px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.bitcoin{
+    background-color: #e5def0;
+}
+.litecoin{
+    background-color: #d6edd9;
+}
+.ethereum{
+    background-color: #f6f0d8;
+}
+
+
+/* your assets cryptos */
+
+/* bitcoin */
+.info-btc,
+.info-ltc,
+.info-eth{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.user-founds,
+.litecoin-user-balance,
+.eth-user-balance{
+    display: flex;
+    gap: 5px;
+}
+.crypto-dollars,
+.litecoin-dollars,
+.eth-dollars{
+    display: flex;
+    gap: 
+    5px;
+}
+.btc-market-status,
+.ltc-market-status,
+.eth-market-status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 85%;
+    margin: 0 auto;
+}
+.btc-market,
+.ltc-market,
+.eth-market{
+    display: flex;
+    gap: 5px;
+}
+.btn-icon,
+.icon-ltc,
+.icon-eth{
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btc-options img{
+    cursor: pointer;
+}
+.btn-icon img{
+    width: 35px;
+    transform: rotate(25deg);
+}
+#btcFoundsUser,
+#ltcFoundsUser,
+#ethFoundsUser{
+    font-weight: bold;
+}
+.crypto-dollars,
+.litecoin-dollars,
+.eth-dollars p{
+    font-weight: 500;
+}
+.user-founds,
+.litecoin-user-balance,
+.eth-user-balance p{
+    font-size: 25px;
+}
+
+
+.icon-ltc,
+.icon-eth img{
+    width: 35px;
+    transform: rotate(25deg);
+}
+
+.market-and-earn{
+    margin-top: 20px;
+}
+.market-and-cryptos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.market-status{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.market-status img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.market-info{
+    display: flex;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.twnty-hours-and-top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    width:50%;
+    
+}
+.twnFour-hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(128, 128, 128, 0.201);
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;font-weight: bold;
+}
+.top-gainers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.201);
+    gap: 5px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.table-cryptos{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.band-protocol{
+    margin-top: 10px;
+}
+.market-crypto{
+    display: flex;
+    width:100px;
+}
