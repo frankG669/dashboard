@@ -201,26 +201,17 @@ const RootPage: React.FC = () => {
                                 </div>
                             </div>
                             <div className="cryptos-status">
-                                <table className="table-cryptos">
-                                    <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Price</th>
-                                            <th>Change</th>
-                                            <th>Market Cap</th>
-                                            <th>Watch</th>
-                                        </tr>
-                                    </thead>   
-                                    <tbody>
-                                        <tr className="band-protocol">
-                                            <th>Band Protocol</th>
-                                            <th>$2.24</th>
-                                            <th>+23.4%</th>
-                                            <th>$300.9 M</th>
-                                            <th></th>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <div className="table-cryptos">
+                                    <div className="thead">
+                                        <div className="tr">
+                                            <p>Name</p>
+                                            <p>Price</p>
+                                            <p>Change</p>
+                                            <p>Market Cap</p>
+                                            <p>Watch</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="earn-cryptos">

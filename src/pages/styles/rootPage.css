@@ -351,15 +351,17 @@ body{
     border-radius: 10px;
     font-weight: bold;
 }
-.table-cryptos{
-    width: 100%;
-    margin-top: 15px;
-}
 
-.band-protocol{
+
+.table-cryptos{
+    background-color: red;
     margin-top: 10px;
+    height: 300px;
 }
-.market-crypto{
+.thead{
+    height: 30px;
+}
+.tr{
     display: flex;
-    width:100px;
+    justify-content: space-between
 }
